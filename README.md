@@ -1,174 +1,102 @@
-# PokéSurvivor · Mundo Misterioso
+# Yo-Kai Watch: Survivors ·
 
-Bullet-heaven con Pokémon al estilo de Survivor.io y Megabonk, con sprites de
-*Pokémon Mundo Misterioso*, capa roguelike, **966 Pokémon de las 9 generaciones**,
-shinies y gacha por región. Música y efectos compuestos para el juego.
+Bullet-heaven con Yo-kais al estilo de Survivor.io, con sprites de los juegos de la saga, capa roguelike, **más de 100 Yo-kai de todas las tribus** (Valiente, Misterioso, Robusto, Guapo, Amable, Escurridizo, Siniestro y Legendarios), medallas y la clásica **Expendekai (gacha) por tribu**. Música y efectos adaptados para el juego.
 
-HTML + CSS + JavaScript vanilla sobre Canvas 2D. Sin build, sin dependencias y
-**todo local**: no necesita internet para jugar.
+HTML + CSS + JavaScript vanilla sobre Canvas 2D. Sin build, sin dependencias y **todo local**: no necesita internet para jugar.
 
 > **Aviso sobre criptomonedas / Crypto disclaimer**
->
-> PokéSurvivor **no tiene ninguna criptomoneda, token ni NFT oficial**, y yo no
-> he creado ninguno. Cualquier token que use el nombre del juego lo han creado
-> terceros. **No me hago cargo de ninguna compra, venta o inversión** que hagas
-> con ellos y nada de lo que hay aquí es una recomendación de inversión. El
-> juego es gratis y lo seguirá siendo.
->
-> PokéSurvivor has **no official cryptocurrency, token or NFT**, and I have not
-> created any. Any token using the game's name was created by third parties.
-> **I take no responsibility for any purchase, sale or investment** you make
-> with them, and nothing here is investment advice. The game is free and will
-> stay free.
+> Yo-Kai Watch: Survivors **no tiene ninguna criptomoneda, token ni NFT oficial**, y nadie del equipo ha creado ninguno. Cualquier token que use el nombre del juego lo han creado terceros ajenos al proyecto. **No nos hacemos cargo de ninguna compra, venta o inversión** que hagas con ellos y nada de lo que hay aquí es una recomendación de inversión. El juego es gratis y lo seguirá siendo.
+> This fan game has **no official cryptocurrency, token or NFT**. Any token using the game's name was created by third parties. **We take no responsibility for any purchase, sale or investment** you make with them. The game is free and will stay free.
 
 ## Jugar
 
-Doble clic en `index.html`. Crea una cuenta o entra como invitado, haz el test
-de personalidad y a la mazmorra.
+Doble clic en `index.html`. Crea una cuenta o entra como invitado, haz el test de personalidad con el Yo-kai Watch y directo a la mazmorra.
 
 | Tecla | Acción |
-|---|---|
+| --- | --- |
 | `W` `A` `S` `D` / flechas | Moverse |
 | `1` `2` `3` `4` | Elegir el movimiento activo |
 | `Q` / `E` | Ciclar movimientos |
 | `Esc` / `P` | Pausa |
 
-**En móvil o tablet** (en horizontal): pon el dedo en cualquier sitio y arrastra
-para moverte (el joystick aparece donde tocas), toca un ataque de abajo para
-cambiarlo y el botón de arriba a la derecha para pausar. Se puede instalar como
-app ("Añadir a pantalla de inicio"). En **Ajustes** hay sonido, calidad gráfica
-(con modo automático), números de daño, menos sacudidas, FPS y la cuenta.
+**En móvil o tablet** (en horizontal): pon el dedo en cualquier sitio y arrastra para moverte (el joystick aparece donde tocas), toca un ataque de abajo para cambiarlo y el botón de arriba a la derecha para pausar. Se puede instalar como app ("Añadir a pantalla de inicio"). En **Ajustes** hay sonido, calidad gráfica (con modo automático), números de daño, menos sacudidas, FPS y la gestión de la cuenta.
 
-El Pokémon ataca solo con el movimiento activo (o con todos los de un
-**vínculo**: cada legendario vencido deja fusionar movimientos para lanzarlos a
-la vez desde un solo hueco, hasta 4). Las rocas, cofres y la hierba
-alta se rompen; las paredes y los árboles bloquean los disparos enemigos; el
-agua frena y la lava quema (también a los enemigos).
+El Yo-kai ataca solo con el movimiento activo (o con todos los de un **vínculo / Animáximum**: cada jefe o Yo-kai legendario vencido deja fusionar técnicas para lanzarlas a la vez desde un solo hueco, hasta 4). Las rocas, cofres y los arbustos se rompen; las paredes y los árboles bloquean los disparos enemigos; el agua frena y el fuego o la lava queman (afectando también a los enemigos).
 
-En el mapa hay **altares de poder**, **manantiales** que curan, **cofres con
-candado** (quédate a su lado unos segundos) y **trampas** que también dañan a
-los enemigos. A veces se abre una **grieta**: entra y lucharás contra un
-**legendario** en una arena aparte.
+En el mapa hay **altares de poder**, **manantiales sagrados** que curan, **cofres con candado** (quédate a su lado unos segundos para abrirlos) y **trampas** que también dañan a los enemigos. A veces se abre una **grieta dimensional**: entra y te enfrentarás a un **jefe legendario u Oni** (como Gargaros u Ogralus) en una arena aparte.
 
-Hay **tabla de tipos** (un Rayo Burbuja le quita más a un Charmander) y,
-de vez en cuando, **climas** (sol, lluvia, arena, nieve, niebla) que potencian
-unos tipos y debilitan otros.
+Hay **tabla de elementos y tribus** (por ejemplo, los ataques de fuego hacen más daño a los Yo-kai débiles a ese elemento) y, de vez en cuando, **climas** (soleado, lluvia, tormenta de arena, ventisca) que potencian unos atributos y debilitan otros.
 
-Cada día hay **misiones** (y semanales) que dan tickets y monedas; los
-**logros** dan medallas y títulos, y tu **perfil** enseña tus 3 Pokémon
-favoritos, tus marcas y tus medallas. En las runs encuentras **objetos** (Restos,
-Cinta Elección...) y tus movimientos **evolucionan** al máximo nivel. Los
-enemigos tienen personalidad: curan, ponen escudos, llaman a su manada o atacan
-con aviso en el suelo.
+Cada día hay **misiones** (y semanales) que otorgan puntos y monedas; los **logros** desbloquean medallas y títulos, y tu **perfil** muestra tus 3 Yo-kai favoritos, tus récords y tus medallas conseguidas. En las partidas encuentras **objetos de equipamiento y comida** (Chocobarritas, Hamburguesas, Estampitas...) y tus técnicas **evolucionan** al alcanzar el nivel máximo. Los enemigos tienen comportamientos variados: curan, ponen escudos, llaman a su manada o avisan de su ataque en el suelo antes de golpear.
 
-Las **mejoras** son de cada Pokémon. El **gacha** va con **tickets** que se
-ganan jugando (×1 de algunos Pokémon, ×10 de jefes y legendarios), y se tira
-en una tragaperras pixel art.
+Las **mejoras** se aplican a cada Yo-kai individualmente. El **gacha (Expendekai)** funciona con **monedas** que se consiguen jugando (monedas rojas, naranjas, amarillas, moradas o especiales de jefes y legendarios), y se tira en una máquina tragaperras de estilo retro.
 
-Cada enemigo tiene 1/4096 de salir **shiny**: brilla, una flecha en el borde de
-la pantalla te dice dónde está, y si lo derrotas te lo quedas. En el gacha sale
-shiny 1 de cada 100 tiradas. En la colección eliges tu compañero en versión
-normal o shiny.
+Cada enemigo tiene una probabilidad de 1/4096 de salir en **versión especial / variocolor (Shiny)**: brilla, una flecha en el borde de la pantalla te indica su posición, y si lo derrotas te lo quedas para siempre. En la Expendekai sale en versión especial 1 de cada 100 tiradas. En la colección puedes elegir si quieres llevar a tu compañero en su aspecto normal o especial.
 
-La música suena tras el primer clic (los navegadores no dejan reproducir sonido
-antes). Volumen y silencio: botón del altavoz arriba a la derecha, o en la pausa.
+La música suena tras el primer clic (los navegadores bloquean el sonido automático inicial). Para ajustar el volumen o silenciar, usa el botón del altavoz arriba a la derecha o hazlo desde el menú de pausa.
 
-El guardado vive en el `localStorage` del navegador: si borras los datos del
-sitio, se pierde.
+El guardado se almacena en el `localStorage` del navegador: si borras los datos del sitio web, se perderá el progreso local.
 
-En `videos/` hay grabaciones del juego (con su música): un combate contra un
-jefe, la captura de un shiny salvaje y un shiny en el gacha.
+En la carpeta `videos/` hay grabaciones del juego (con su música original): un combate contra un jefe de la parca, la captura de un Yo-kai especial salvaje y una tirada afortunada en la Expendekai.
 
 ## Guardado en la nube y publicación
 
-- **Base de datos (Firebase):** cuentas con nombre + contraseña o Google, y la
-  partida se sigue en cualquier ordenador. Pasos en [docs/FIREBASE.md](docs/FIREBASE.md).
-  Sin configurar, el juego guarda sólo en el navegador, como antes.
-- **Jugar con amigos (hasta 4) y ranking:** con cuenta en la nube, menú
-  **Amigos** (añadir por apodo, invitar a tu sala) y **Ranking** (tiempo
-  aguantado: solo o grupo, de hoy a histórico, amigos, por Pokémon).
-- **Publicar gratis en GitHub Pages:** [docs/PUBLICAR.md](docs/PUBLICAR.md).
-- Si se juega en dos ordenadores a la vez o sin conexión, las partidas se
-  **fusionan**: las colecciones se unen (nunca se pierde un Pokémon ni un
-  shiny), mejoras y estadísticas se quedan con el máximo, y monedas y
-  compañero con la versión más reciente. Los cambios de otro ordenador llegan
-  en directo.
+* **Base de datos (Firebase):** cuentas con usuario + contraseña o Google, para continuar la partida en cualquier ordenador. Pasos detallados en [docs/FIREBASE.md](https://www.google.com/search?q=docs/FIREBASE.md). Sin configurar, el juego guarda únicamente en el navegador de forma local.
+* **Jugar con amigos (hasta 4) y ranking:** con cuenta en la nube, usa el menú **Amigos** (añadir por apodo, invitar a salas privadas) y el **Ranking** (tiempo aguantado: en solitario o en grupo, diario o histórico, filtrado por amigos o por Yo-kai).
+* **Publicar gratis en GitHub Pages:** [docs/PUBLICAR.md](https://www.google.com/search?q=docs/PUBLICAR.md).
+* Si se juega en dos dispositivos a la vez o sin conexión, las partidas se **fusionan**: las colecciones se combinan (nunca se pierde un Yo-kai ni una variante especial), las mejoras y estadísticas se actualizan con el valor máximo, y las monedas o el compañero activo se quedan con la versión más reciente. Los cambios de otro equipo se sincronizan en directo.
 
 ## Licencia
 
-Código bajo [PolyForm Noncommercial 1.0.0](LICENSE-NONCOMMERCIAL.md) desde el
-14-10-2026: se puede usar, estudiar y modificar, pero **no con fines
-comerciales** (ni vender el juego ni cobrar nada dentro de él). Las versiones
-hasta el commit `b297089` se publicaron bajo MIT. Los sprites (CC BY-NC 4.0),
-la fuente (OFL) y las marcas de Pokémon tienen sus propias condiciones: ver
-[LICENSE](LICENSE) y [CREDITS.md](CREDITS.md). Proyecto de fan sin ánimo de
-lucro.
+Código bajo [PolyForm Noncommercial 1.0.0](https://www.google.com/search?q=LICENSE-NONCOMMERCIAL.md): se puede usar, estudiar y modificar, pero **no con fines comerciales** (ni vender el juego ni cobrar nada dentro de él). Los sprites, la fuente tipográfica y los elementos de Yo-kai Watch tienen sus propias condiciones de uso por parte de los creadores originales (Level-5). Proyecto de fan sin ánimo de lucro.
 
-**La única web oficial es [pokesurvivor.com](https://pokesurvivor.com).** El
-juego es y será gratis: si alguien te pide pagar, no somos nosotros.
+**La única web oficial es la del proyecto.** El juego es y será totalmente gratuito: si alguien te pide dinero, no somos nosotros.
 
 ## Estructura
 
 ```
 index.html              pantallas + orden de carga
-css/style.css           interfaz estilo Mundo Misterioso
-assets/pokemon/{dex}/   hojas de sprites PMD (Idle, Walk, Attack, Shoot, Charge, Hurt, Faint)
-assets/pokemon/{dex}/s/ las mismas en versión shiny
-assets/fonts/           Pixelify Sans (OFL) y su versión con números redibujados (tools/make_font.py)
+css/style.css           interfaz inspirada en los menús de Yo-kai Watch
+assets/yokai/{id}/      hojas de sprites (Idle, Walk, Attack, Shoot, Charge, Hurt, Faint)
+assets/yokai/{id}/s/    las mismas en versión especial / variocolor
+assets/fonts/           Fuentes retro y de estilo píxel optimizadas
 js/
-  net/      social (apodo, amigos, salas), net (WebRTC + relé),
-            coop (partida en grupo), ranking
-  core/     util, db (guardado), audio (sintetizador + efectos), input,
-            sprites (animador PMD), camera
-  data/     pokedex*, sprites-meta*, moves, starters (+ test), enemies,
-            upgrades, music (partituras)
-  world/    tiles (pixel art en código), world (terreno, objetos, colisiones)
-  entities/ player, enemy, projectile, pickup, fx
-  systems/  combat, spawner, levelup, gacha
-  ui/       icons (pixel art), ui, hud, login, test, menu, gacha-ui, run-ui,
-            social-ui, ranking-ui
-  game.js   flujo y bucle principal
-tools/      scripts que regeneran los ficheros marcados con *
-```
-
-`*` = generado. Para rehacerlos (necesita Python 3 + Pillow e internet, sólo esa vez):
+  net/                  social (apodo, amigos, salas), red (WebRTC + relé),
+                        coop (partida en grupo), ranking
+  core/                 util, db (guardado), audio (sintetizador + efectos), input,
+                        sprites (animador), camera
+  data/                 yokai-dex*, sprites-meta*, moves, starters (+ test), enemies,
+                        upgrades, music (partituras)
+  world/                tiles (pixel art en código), terreno, objetos, colisiones
+  entities/             player, enemy, projectile, pickup, fx
+  systems/              combat, spawner, levelup, gacha
+  ui/                   icons (pixel art), ui, hud, login, test, menu, gacha-ui, run-ui,
+                        social-ui, ranking-ui
+  game.js               flujo y bucle principal
+tools/                  scripts que regeneran los ficheros marcados con *
 
 ```
-python tools/fetch_sprites.py    # sprites normal y shiny + js/data/sprites-meta.js
-                                 # (~20 min; se puede cortar y relanzar: usa tools/cache/)
-python tools/fetch_pokedex.py    # js/data/pokedex.js
-python tools/fetch_credits.py    # CREDITS.md
+
+`*` = generado. Para regenerarlos (requiere Python 3 + Pillow e internet, solo la primera vez):
+
+```
+python tools/fetch_sprites.py     # sprites normales y especiales + js/data/sprites-meta.js
+python tools/fetch_pokedex.py     # js/data/yokai-dex.js
+python tools/fetch_credits.py     # CREDITS.md
+
 ```
 
 ## Notas de implementación
 
-- **Sprites PMD.** Columnas = fotogramas, filas = 8 direcciones (Down, DownRight,
-  Right, UpRight, Up, UpLeft, Left, DownLeft — verificado con los `-Offsets.png`).
-  Cada animación tiene su propio tamaño de fotograma, así que se alinean por el
-  **ancla al suelo** sacada del `-Shadow.png`; sin eso el sprite saltaría al atacar.
-- **Coordenadas.** `(x, y)` de una entidad son sus **pies**. Las colisiones
-  ocurren en el plano del suelo; los proyectiles vuelan en ese plano y se dibujan
-  elevados con su sombra debajo.
-- **Mundo.** Chunks de 16×16 tiles: los *datos* (terreno, objetos) son baratos y
-  se generan siempre; la *imagen* se hornea a resolución de arte escribiendo en un
-  `ImageData` (~4 ms por chunk en Chrome) y sólo para los visibles.
-- **Rendimiento.** Rejilla espacial de enemigos reconstruida cada frame. Con 420
-  enemigos, simulación + render completo ≈ 3 ms por frame en Chrome.
-- **Metadatos en `.js`, no `.json`**, porque `fetch()` está bloqueado en `file://`.
-- **Shiny.** Los shiny de SpriteCollab son el mismo dibujo con otra paleta; están
-  en `s/` y sólo 30 tienen geometría distinta (campo `sa` en los metadatos).
-  Las hojas se guardan como PNG con paleta exacta: misma imagen, la mitad de peso.
-- **Audio.** Sintetizador Web Audio con planificador anticipado (programa las
-  notas 150 ms por delante) y reverb por convolución con un impulso generado.
-  Las partituras están en `js/data/music.js` en un formato de texto propio.
-  Los efectos tienen separación mínima entre repeticiones y un tope de voces,
-  para que 400 enemigos golpeados a la vez no saturen.
-- **Iconos.** Mapas de caracteres convertidos a canvas y data URLs; siempre a
-  múltiplos enteros de su tamaño para que el píxel quede limpio.
+* **Sprites y Animaciones.** Columnas = fotogramas, filas = direcciones de movimiento. Cada animación maneja su propio tamaño de fotograma, alineándose mediante el ancla al suelo para evitar saltos visuales al atacar.
+* **Coordenadas.** Las coordenadas `(x, y)` de cada entidad representan sus **pies**. Las colisiones ocurren en el plano del suelo; los proyectiles viajan por ese plano y se dibujan con una sombra inferior para dar sensación de profundidad.
+* **Mundo.** Chunks de 16×16 tiles: los datos de terreno y objetos son ligeros y se generan constantemente; la imagen visual se procesa a resolución de arte escribiendo en un `ImageData` (de forma muy eficiente en Chrome) únicamente para las zonas visibles.
+* **Rendimiento.** Emplea una rejilla espacial de enemigos que se reconstruye en cada fotograma. Con cientos de enemigos simultáneos, la simulación y el renderizado completo se mantienen en valores mínimos por frame en navegadores modernos.
+* **Metadatos en `.js` en lugar de `.json**`, para evitar restricciones al abrir el juego localmente (`file://`).
+* **Variantes Especiales (Shiny).** Las versiones especiales utilizan paletas de colores alternativas guardadas de forma optimizada para mantener un peso mínimo en memoria y disco.
+* **Audio.** Sintetizador basado en Web Audio API con planificación anticipada de notas y efectos de sonido optimizados para evitar saturaciones cuando se golpea a una gran cantidad de enemigos a la vez.
+* **Iconos.** Elementos gráficos convertidos dinámicamente a canvas y data URLs para garantizar que los píxeles se mantengan nítidos a cualquier escala.
 
 ## Créditos y licencia
 
-Sprites de [SpriteCollab](https://github.com/PMDCollab/SpriteCollab) bajo
-**CC BY-NC 4.0** — uso **no comercial** y con atribución; la lista de artistas
-está en [`CREDITS.md`](CREDITS.md). Pokémon es propiedad de Nintendo, Creatures
-Inc. y GAME FREAK. Proyecto de fan sin ánimo de lucro.
+Sprites y recursos gráficos obtenidos de repositorios de la comunidad bajo términos de uso **no comercial** y con atribución a sus respectivos autores. Yo-kai Watch y todos sus personajes son propiedad intelectual de **LEVEL-5**. Proyecto de fan sin ánimo de lucro creado puramente por pasión.
