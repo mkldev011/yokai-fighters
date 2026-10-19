@@ -41,9 +41,9 @@ En la carpeta `videos/` hay grabaciones del juego (con su música original): un 
 
 ## Guardado en la nube y publicación
 
-* **Base de datos (Firebase):** cuentas con usuario + contraseña o Google, para continuar la partida en cualquier ordenador. Pasos detallados en [docs/FIREBASE.md](https://www.google.com/search?q=docs/FIREBASE.md). Sin configurar, el juego guarda únicamente en el navegador de forma local.
+* **Base de datos (Firebase):** cuentas con usuario + contraseña o Google, para continuar la partida en cualquier ordenador. Pasos detallados en [docs/FIREBASE.md](docs/FIREBASE.md). Sin configurar, el juego guarda únicamente en el navegador de forma local.
 * **Jugar con amigos (hasta 4) y ranking:** con cuenta en la nube, usa el menú **Amigos** (añadir por apodo, invitar a salas privadas) y el **Ranking** (tiempo aguantado: en solitario o en grupo, diario o histórico, filtrado por amigos o por Yo-kai).
-* **Publicar gratis en GitHub Pages:** [docs/PUBLICAR.md](https://www.google.com/search?q=docs/PUBLICAR.md).
+* **Publicar gratis en GitHub Pages:** [docs/PUBLICAR.md](docs/PUBLICAR.md).
 * Si se juega en dos dispositivos a la vez o sin conexión, las partidas se **fusionan**: las colecciones se combinan (nunca se pierde un Yo-kai ni una variante especial), las mejoras y estadísticas se actualizan con el valor máximo, y las monedas o el compañero activo se quedan con la versión más reciente. Los cambios de otro equipo se sincronizan en directo.
 
 ## Licencia
@@ -93,10 +93,9 @@ python tools/fetch_credits.py     # CREDITS.md
 * **Mundo.** Chunks de 16×16 tiles: los datos de terreno y objetos son ligeros y se generan constantemente; la imagen visual se procesa a resolución de arte escribiendo en un `ImageData` (de forma muy eficiente en Chrome) únicamente para las zonas visibles.
 * **Rendimiento.** Emplea una rejilla espacial de enemigos que se reconstruye en cada fotograma. Con cientos de enemigos simultáneos, la simulación y el renderizado completo se mantienen en valores mínimos por frame en navegadores modernos.
 * **Metadatos en `.js` en lugar de `.json**`, para evitar restricciones al abrir el juego localmente (`file://`).
-* **Variantes Especiales (Shiny).** Las versiones especiales utilizan paletas de colores alternativas guardadas de forma optimizada para mantener un peso mínimo en memoria y disco.
 * **Audio.** Sintetizador basado en Web Audio API con planificación anticipada de notas y efectos de sonido optimizados para evitar saturaciones cuando se golpea a una gran cantidad de enemigos a la vez.
 * **Iconos.** Elementos gráficos convertidos dinámicamente a canvas y data URLs para garantizar que los píxeles se mantengan nítidos a cualquier escala.
 
 ## Créditos y licencia
 
-Sprites y recursos gráficos obtenidos de repositorios de la comunidad bajo términos de uso **no comercial** y con atribución a sus respectivos autores. Yo-kai Watch y todos sus personajes son propiedad intelectual de **LEVEL-5**. Proyecto de fan sin ánimo de lucro creado puramente por pasión.
+Código bajo [PolyForm Noncommercial 1.0.0](LICENSE-NONCOMMERCIAL.md): se puede usar, estudiar y modificar, pero **no con fines comerciales** (ni vender el juego ni cobrar nada dentro de él). Los sprites, la fuente tipográfica y los elementos de Yo-kai Watch tienen sus propias condiciones de uso por parte de los creadores originales (Level-5). Proyecto de fan sin ánimo de lucro.
