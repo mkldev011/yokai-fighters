@@ -9,26 +9,26 @@
 <meta http-equiv="Content-Security-Policy" content="script-src 'self' file: https://www.gstatic.com https://apis.google.com https://*.firebaseio.com https://*.firebasedatabase.app; object-src 'none'; base-uri 'self'">
 <meta name="robots" content="noindex">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>PokéSurvivor – Juego Pokémon gratis online estilo Survivor.io</title>
-<meta name="description" content="Sobrevive a hordas de Pokémon con tu compañero en este fan game gratis para navegador y móvil: 966 Pokémon, shinies, legendarios y cooperativo con amigos. Sin descargas ni anuncios.">
+<title>Yokai Fighters – Juego Yokai gratis online estilo Survivor.io</title>
+<meta name="description" content="Sobrevive a hordas con tu yokai favorito en este fan game gratis para navegador y móvil: 966 Pokémon, shinies, legendarios y cooperativo con amigos. Sin descargas ni anuncios.">
 <!-- seo:begin -->
-<link rel="canonical" href="https://pokesurvivor.com/">
+<link rel="canonical" href="https://mkldev011.github.io/yokai-fighters/">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#0a1430">
 <meta name="color-scheme" content="dark">
 <!-- Compartir en redes (WhatsApp, Discord, Twitter/X...) -->
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="PokéSurvivor">
+<meta property="og:site_name" content="Yokai Fighters">
 <meta property="og:locale" content="es_ES">
-<meta property="og:url" content="https://pokesurvivor.com/">
-<meta property="og:title" content="PokéSurvivor – Sobrevive a las hordas Pokémon">
-<meta property="og:description" content="Fan game gratis para navegador y móvil: 966 Pokémon, shinies, legendarios y cooperativo hasta 4 amigos. Sin descargas ni anuncios.">
+<meta property="og:url" content="https://mkldev011.github.io/yokai-fighters/">
+<meta property="og:title" content="Yokai Fighters – Descubre la misteriosa historia de Yokai Fighters
+<meta property="og:description" content="Fan game gratis para navegador y móvil: Muchos Yokais y cooperativo hasta 4 amigos. Sin descargas ni anuncios.">
 <meta property="og:image" content="https://pokesurvivor.com/assets/og-image.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="PokéSurvivor: un Pokémon rodeado de hordas en un mapa pixel art">
+<meta property="og:image:alt" content="Yokai Fighters: un Yokai rodeado de hordas en un mapa pixel art">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="PokéSurvivor – Sobrevive a las hordas Pokémon">
+<meta name="twitter:title" content="Yokai Fighters – Sobrevive a las hordas Yokai
 <meta name="twitter:description" content="Fan game gratis para navegador y móvil, con cooperativo hasta 4. Sin descargas ni anuncios.">
 <meta name="twitter:image" content="https://pokesurvivor.com/assets/og-image.jpg">
 <meta name="ps-pages" content="1">
@@ -43,7 +43,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="PokéSurvivor">
+<meta name="apple-mobile-web-app-title" content="Yokai Fighters">
 <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
 <link rel="preload" href="assets/fonts/PixelifyPS-400.ttf" as="font" type="font/ttf" crossorigin>
 <link rel="preload" href="assets/fonts/PixelifyPS-700.ttf" as="font" type="font/ttf" crossorigin>
@@ -55,16 +55,16 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://pokesurvivor.com/#web",
-      "url": "https://pokesurvivor.com/",
-      "name": "PokéSurvivor",
+      "@id": "https://mkldev011.github.io/yokai-fighters/",
+      "url": "https://mkldev011.github.io/yokai-fighters/",
+      "name": "Yokai Fighters",
       "inLanguage": "es"
     },
     {
       "@type": ["VideoGame", "WebApplication"],
-      "@id": "https://pokesurvivor.com/#juego",
-      "name": "PokéSurvivor",
-      "url": "https://pokesurvivor.com/",
+      "@id": "https://mkldev011.github.io/yokai-fighters/",
+      "name": "Yokai Fighters",
+      "url": "https://mkldev011.github.io/yokai-fighters/",
       "description": "Fan game gratuito de supervivencia (bullet heaven, estilo Survivor.io) con Pokémon: elige compañero, sobrevive a hordas, sube de nivel, evoluciona tus ataques, enfréntate a legendarios en grietas y juega en cooperativo con hasta 4 amigos.",
       "image": "https://pokesurvivor.com/assets/og-image.jpg",
       "inLanguage": "es",
@@ -89,17 +89,17 @@
 
 <canvas id="game"></canvas>
 <!-- En móvil se juega en horizontal -->
-<div id="rotate" class="hidden"><div class="box center"><div id="rotate-ico"></div><h2>Gira el móvil</h2><p class="sub">PokéSurvivor se juega en horizontal.</p></div></div>
+<div id="rotate" class="hidden"><div class="box center"><div id="rotate-ico"></div><h2>Gira el móvil</h2><p class="sub">Yokai Fighters se juega en horizontal.</p></div></div>
 
 <!-- ====== Inicio: login / registro / invitado ====== -->
 <section id="scr-login" class="scr hidden">
   <div class="box" style="width:min(420px,100%)">
     <div class="logo">
-      <div class="t1">PokéSurvivor</div>
-      <div class="t2">Mundo Misterioso</div>
+      <div class="t1">Yokai Fightes</div>
+      <div class="t2">Mi primer proyecto</div>
     </div>
-    <p class="login-tag">Sobrevive a las hordas con tu compañero Pokémon · gratis, en PC y móvil</p>
-    <p class="login-official">Web oficial: pokesurvivor.com · si alguien te pide pagar, no somos nosotros</p>
+    <p class="login-tag">Sobrevive a las hordas usando tu yokai favorito· gratis, en PC y móvil</p>
+    <p class="login-official">Web oficial: mkldev011.github.io/yokai-fighters/ · si alguien te pide pagar, no somos nosotros</p>
     <div class="tabs">
       <div class="tab on" data-tab="login">Entrar</div>
       <div class="tab" data-tab="register">Crear cuenta</div>
@@ -171,8 +171,8 @@
 <section id="scr-menu" class="scr hidden">
   <div class="menu-left">
     <div class="logo">
-      <div class="t1">PokéSurvivor<span class="splash">Folagor, Sekiam, PokeAlex: ¿un hueco?</span></div>
-      <div class="t2">Mundo Misterioso</div>
+      <div class="t1">Yokai Fighters<span class="splash">DekaMaku, SRBrody, Barbilla&Cia: ¿una partida?</span></div>
+      <div class="t2">Salva al mundo yokai!</div>
     </div>
     <div class="partner-card">
       <canvas id="menu-partner" class="stage" width="260" height="200"></canvas>
@@ -185,9 +185,9 @@
     <div class="box">
       <div class="menu-list">
         <button class="menu-item play" data-go="play">Jugar<small>Entra en la mazmorra</small></button>
-        <button class="menu-item" data-go="dex">Pokémon<small id="menu-dex-count">Tu colección</small></button>
+        <button class="menu-item" data-go="dex">Yokai<small id="menu-dex-count">Tu colección</small></button>
         <button class="menu-item" data-go="upgrades">Mejoras<small>Haz más fuerte cada run</small></button>
-        <button class="menu-item" data-go="gacha">Gacha<small>9 regiones · Pokémon y shinies</small></button>
+        <button class="menu-item" data-go="gacha">Gacha<small>9 regiones · Yokai </small></button>
         <button class="menu-item" data-go="goals">Misiones<small id="menu-goals-sub">Misiones, logros y perfil</small></button>
         <button class="menu-item" data-go="friends">Amigos<small id="menu-friends-sub">Juega en grupo, hasta 4</small></button>
         <button class="menu-item" data-go="rank">Ranking<small>Quién aguanta más</small></button>
@@ -275,18 +275,17 @@
   <div class="box legal" style="width:min(640px,100%)">
     <div class="row between"><h2>Aviso legal</h2><button class="btn small ghost" id="legal-close">Cerrar</button></div>
     <h3>Proyecto de fan</h3>
-    <p><b>PokéSurvivor</b> es un juego hecho por fans, <b>gratuito y sin ánimo de lucro</b>.
+    <p><b>Yokai Fighters </b> es un juego hecho por fans, <b>gratuito y sin ánimo de lucro</b>.
       No tiene anuncios ni compras. Se puede apoyar con donaciones voluntarias, que se usan sólo para pagar los servidores y el dominio, y que no dan ninguna ventaja en el juego.</p>
-    <p>No está afiliado, patrocinado ni aprobado por Nintendo, Creatures Inc., GAME FREAK ni
-      The Pokémon Company. Pokémon y todos los nombres y personajes relacionados son marcas y
+    <p>No está afiliado, patrocinado ni aprobado por Nintendo NI LEVEL-5 . Yokai Watch y todos los nombres y personajes relacionados son marcas y
       propiedad de sus respectivos dueños.</p>
     <h3>Web oficial</h3>
-    <p>La única web oficial de PokéSurvivor es pokesurvivor.com. El juego es y será gratis: si alguien te pide pagar, no somos nosotros.</p>
+    <p>La única web oficial de Yokai Fighters es https://mkldev011.github.io/yokai-fighters/. El juego es y será gratis: si alguien te pide pagar, no somos nosotros.</p>
     <h3>Criptomonedas</h3>
-    <p>PokéSurvivor no tiene ninguna criptomoneda, token ni NFT oficial, y su autor no ha creado ninguno. Cualquier token que use el nombre del juego lo han creado terceros: no nos hacemos cargo de ninguna compra, venta o inversión que hagas con ellos, y nada de lo que hay aquí es una recomendación de inversión.</p>
+    <p>Yokai Fighters no tiene ninguna criptomoneda, token ni NFT oficial, y su autor no ha creado ninguno. Cualquier token que use el nombre del juego lo han creado terceros: no nos hacemos cargo de ninguna compra, venta o inversión que hagas con ellos, y nada de lo que hay aquí es una recomendación de inversión.</p>
     <h3>Contenido de terceros</h3>
     <p>Sprites de <a href="https://github.com/PMDCollab/SpriteCollab" target="_blank" rel="noopener">SpriteCollab</a>
-      (CC BY-NC 4.0, créditos completos en CREDITS.md del repositorio). Datos de la Pokédex de
+      (CC BY-NC 4.0, créditos completos en CREDITS.md del repositorio).
       <a href="https://pokeapi.co/" target="_blank" rel="noopener">PokeAPI</a>. Fuente Pixelify Sans (OFL).
       La música y los efectos de sonido son originales del proyecto.</p>
     <h3>Contacto y retirada de contenido</h3>
@@ -302,7 +301,7 @@
       No usamos tus datos para nada más, ni los compartimos, ni hay publicidad ni seguimiento.
       Como invitado no se guarda nada fuera de tu navegador.</p>
     <p>Amigos y ranking: tu <b>apodo</b> es público para otros jugadores. Guardamos tu lista de
-      amigos, si estás en línea y tus mejores tiempos (con tu apodo y tu Pokémon).</p>
+      amigos, si estás en línea y tus mejores tiempos (con tu apodo y tu Yokai).</p>
     <p>Partidas en grupo: tu navegador se conecta <b>directamente</b> con el de tus compañeros
       (como en una videollamada), así que cada uno puede llegar a ver la dirección IP del otro.
       Juega en grupo sólo con gente que conozcas. Si la conexión directa no es posible, la partida
@@ -316,26 +315,26 @@
 </section>
 <div id="boot" class="boot">
   <div class="boot-in">
-    <h1>PokéSurvivor</h1>
-    <p>Juego de supervivencia con Pokémon, gratis en el navegador y en el móvil.</p>
+    <h1>Yokai Fighters</h1>
+    <p>Juego de supervivencia con Yokais, gratis en el navegador y en el móvil.</p>
     <p class="boot-ld">Cargando…</p>
   </div>
 </div>
 <script src="js/boot.js"></script>
 <div id="tap-start" class="tapstart hidden">
   <div class="boot-in">
-    <h1>PokéSurvivor</h1>
-    <p>Sobrevive a las hordas con tu compañero Pokémon</p>
+    <h1>Yokai Fighters</h1>
+    <p>Sobrevive a las hordas con tu Yokai favorito</p>
     <p class="tap-blink">Pulsa para empezar</p>
   </div>
 </div>
 <noscript>
   <div class="boot noscript">
     <div class="boot-in">
-      <h1>PokéSurvivor</h1>
-      <p>PokéSurvivor necesita JavaScript para funcionar. Actívalo para jugar.</p>
-      <p>Fan game gratuito de supervivencia con 966 Pokémon de las 9 regiones: elige tu compañero, sobrevive a las hordas, evoluciona tus ataques, enfréntate a legendarios y juega en cooperativo con hasta 4 amigos.</p>
-      <!-- seo:begin --><p><a href="guia/">Guía del juego</a> · <a href="pokedex/">Pokédex: todos los Pokémon jugables</a></p><!-- seo:end -->
+      <h1>Yokai Fighters </h1>
+      <p>Yokai Fighters necesita JavaScript para funcionar. Actívalo para jugar.</p>
+      <p>Fan game gratuito de supervivencia con muchos Yokais de toda la saga: elige tu compañero, sobrevive a las hordas, evoluciona tus ataques, enfréntate a legendarios y juega en cooperativo con hasta 4 amigos.</p>
+      <!-- seo:begin --><p><a href="guia/">Guía del juego</a> · <a href="pokedex/">Pokédex: todos los Yokai jugables</a></p><!-- seo:end -->
     </div>
   </div>
 </noscript>
@@ -474,9 +473,9 @@
     <div class="upg-head">
       <canvas id="upg-stage" class="stage" width="120" height="96"></canvas>
       <div class="grow">
-        <p class="sub" style="margin:0">Cada Pokémon tiene sus propias mejoras: sólo cuentan cuando juegas con él.</p>
+        <p class="sub" style="margin:0">Cada Yokai tiene sus propias mejoras: sólo cuentan cuando juegas con él.</p>
         <div class="row" style="margin-top:8px">
-          <label for="upg-mon" style="margin:0">Pokémon</label>
+          <label for="upg-mon" style="margin:0">Yokai</label>
           <select id="upg-mon" class="field" style="width:auto;min-width:220px"></select>
         </div>
       </div>
